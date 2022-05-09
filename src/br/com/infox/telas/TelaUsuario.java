@@ -255,6 +255,7 @@ public class TelaUsuario extends javax.swing.JInternalFrame {
 
         btnUsoDelete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/infox/icones/delete.png"))); // NOI18N
         btnUsoDelete.setToolTipText("Deletar");
+        btnUsoDelete.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnUsoDelete.setPreferredSize(new java.awt.Dimension(80, 80));
         btnUsoDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
